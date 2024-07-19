@@ -31,8 +31,14 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -42,6 +48,19 @@ body {
 
 .header-section {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
 }
 
 .section .logo {
@@ -58,12 +77,19 @@ body {
   color: #2e2f42;
 }
 
+.link-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-links {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
+
 .nav-links:hover,
 .nav-links:focus {
   color: #404bbf;
@@ -71,6 +97,11 @@ body {
 
 .adress-section {
   font-style: normal;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
 }
 
 .adress-links {
