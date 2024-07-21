@@ -25,20 +25,14 @@ a {
 
 /* ==========End style reset========== */
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+img {
+  display: block;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-}
-
-img {
-  display: block;
 }
 
 .header-section {
@@ -49,16 +43,18 @@ img {
   display: flex;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .nav-section {
   display: flex;
   align-items: center;
 }
 
 .logo {
-  margin-right: 76px;
-}
-
-.section .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -66,6 +62,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .studio-logo {
@@ -97,6 +94,10 @@ img {
 .adress-list {
   display: flex;
   gap: 40px;
+}
+
+.adress-element {
+  padding: 24px 0;
 }
 
 .adress-links {
